@@ -4,4 +4,9 @@
 
 input {
     width: 100%;
+    border: 1px solid grey;
+}
+
+.containerStyle {
+    margin-top: 10px;
 }

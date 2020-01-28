@@ -6,7 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 const Input = props => {
     return(
-        <Container fluid={true}>
+        <Container fluid={true} className="containerStyle">
             <Row>
                 <Col xs={0} sm={4}></Col>
                 <Col xs={12} sm={4} className="labelStyle" style={colors.textColor}>{props.label}</Col>
