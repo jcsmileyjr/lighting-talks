@@ -1,9 +1,9 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
 
 import Header from '../components/header/Header';
 import Input from '../components/Input/Input';
 import TextArea from '../components/Input/TextArea';
+import PrimaryButton from '../components/Button/Button';
 
 const Setup = props => {
     return(
@@ -13,6 +13,7 @@ const Setup = props => {
             <TextArea label="Talk's Description" />
             <Input label="Author's Name" />
             <Input label="Timer: Number of minutes" />
+            <PrimaryButton />
         </main>
     );
 }
