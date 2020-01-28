@@ -6,10 +6,10 @@ import Input from '../components/Input/Input';
 
 const Setup = props => {
     return(
-        <Container fluid={true}>
+        <div>
             <Header />
             <Input label="Subject or Title" />
-        </Container>
+        </div>
     );
 }
 

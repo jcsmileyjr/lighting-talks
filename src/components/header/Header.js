@@ -5,10 +5,10 @@ import './header.css';
 
 const Header = props => {
     return(
-        <Container fluid={true} style={colors.headerColor}>
-            <Row className="primaryTitleStyle"><Col>Lighting Talks</Col></Row>
-            <Row className="secondaryTitleStyle"><Col>For Tech Meetups</Col></Row>
-        </Container>
+        <main className="headerStyle" style={colors.headerColor}>
+            <div className="primaryTitleStyle">Lighting Talks</div>
+            <div className="secondaryTitleStyle">For Tech Meetups</div>
+        </main>
     );
 }
 
