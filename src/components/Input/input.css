@@ -1,0 +1,17 @@
+.labelStyle {
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.containerStyle {
+    margin-top: 20px;
+}
+
+.textAreaStyle {
+    
+    text-align: left;
+}

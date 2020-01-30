@@ -1,13 +1,39 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
+import Setup from './screens/Setup';
 
-import Header from './components/Header';
+const App = () => {
+  const [subject, setSubject]  = useState("Intro to React");
+  const [description, setDescription] = useState("Hello World App");
+  const [speaker, setSpeaker] = useState("Smiley");
+  const [minutes, setMinutes] = useState(0);
+  const [setupMode, setSetupMode] = useState(false);
 
-function App() {
+  const updateSubject = newSubject => { setSubject(newSubject);}
+  const updateDescription = description => {setDescription(description);}
+  const updateSpeaker = speaker => {setSpeaker(speaker);}
+  const updateMinutes = minutes => {setMinutes(minutes);}
+  const goToPreview = () => {setSetupMode(true);}
+
   return (
     <div className="App">
-      <Header />
+      {!setupMode &&  
+      <Setup  getSubject = {updateSubject}
+              subject = {subject}
+              getDescription = {updateDescription} 
+              description = {description}
+              getSpeaker = {updateSpeaker} 
+              speaker = {speaker}
+              getMinutes = {updateMinutes} 
+              minutes = {minutes}
+              preview = {goToPreview}
+      />
+      }
+      {
+        setupMode &&
+          <div><p>It don't work</p></div>
+      }  
     </div>
   );
 }
