@@ -1,0 +1,25 @@
+.landingPageImage {
+    background-image: url(../assets/images/bolt_1g.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-attachment: fixed;
+    background-size: cover;/*image cover the entire screen*/
+    
+}
+
+.centerText {
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subTitle {
+    font-size: 1.5rem;
+}

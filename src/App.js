@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 
 import Setup from './screens/Setup';
+import LogIn from './screens/LogIn';
 
 const App = () => {
   const [subject, setSubject]  = useState("Intro to React");
@@ -9,6 +10,7 @@ const App = () => {
   const [speaker, setSpeaker] = useState("Smiley");
   const [minutes, setMinutes] = useState(0);
   const [setupMode, setSetupMode] = useState(false);
+  const [navigation, setNavigation] = useState(1);
 
   const updateSubject = newSubject => { setSubject(newSubject);}
   const updateDescription = description => {setDescription(description);}
@@ -18,7 +20,8 @@ const App = () => {
 
   return (
     <div className="App">
-      {!setupMode &&  
+      {navigation === 1 && <LogIn />}
+      {navigation === 2 &&  
       <Setup  getSubject = {updateSubject}
               subject = {subject}
               getDescription = {updateDescription} 

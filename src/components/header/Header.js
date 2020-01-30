@@ -1,5 +1,4 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
 import colors from '../../constants.js';
 import './header.css';
 
