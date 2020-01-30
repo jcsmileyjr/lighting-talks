@@ -8,7 +8,7 @@ const PrimaryButton = props => {
             <Row>
                 <Col xs={0} sm={4}></Col>
                 <Col xs={12} sm={4}>
-                    <Button variant="success" type="submit" block size="lg">Preview</Button>
+                    <Button onClick={props.action} variant="success" type="submit" block size="lg">Preview</Button>
                 </Col>
                 <Col xs={0} sm={4}></Col>
             </Row>
