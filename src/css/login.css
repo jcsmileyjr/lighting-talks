@@ -1,5 +1,5 @@
 .landingPageImage {
-    background-image: url(../assets/images/bolt_1g.png);
+    background-image: url(../assets/images/bolt-3d-1a-grey.png);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;/*image is size of the device screen size*/
@@ -22,4 +22,10 @@
 
 .subTitle {
     font-size: 1.5rem;
+}
+
+.footerText {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
 }

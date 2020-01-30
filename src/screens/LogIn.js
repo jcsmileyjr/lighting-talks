@@ -16,7 +16,9 @@ const LogIn = props => {
                         For Tech Meetups
                     </Col>
                 </Row>
-                <Row style={{height:"10vh"}}><Col>Click ANYWHERE to Continue</Col></Row>
+                <Row style={{height:"10vh"}}>
+                    <Col className="footerText">Click ANYWHERE to Continue</Col>
+                </Row>
             </Container>               
         </main>        
     );
