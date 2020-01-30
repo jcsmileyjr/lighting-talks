@@ -9,18 +9,17 @@ const App = () => {
   const [description, setDescription] = useState("Hello World App");
   const [speaker, setSpeaker] = useState("Smiley");
   const [minutes, setMinutes] = useState(0);
-  const [setupMode, setSetupMode] = useState(false);
   const [navigation, setNavigation] = useState(1);
 
   const updateSubject = newSubject => { setSubject(newSubject);}
   const updateDescription = description => {setDescription(description);}
   const updateSpeaker = speaker => {setSpeaker(speaker);}
   const updateMinutes = minutes => {setMinutes(minutes);}
-  const goToPreview = () => {setSetupMode(true);}
+  const updateNavigation = (routeNumber) => {setNavigation(routeNumber)}
 
   return (
     <div className="App">
-      {navigation === 1 && <LogIn />}
+      {navigation === 1 && <LogIn goToSetup={updateNavigation} />}
       {navigation === 2 &&  
       <Setup  getSubject = {updateSubject}
               subject = {subject}
@@ -30,13 +29,9 @@ const App = () => {
               speaker = {speaker}
               getMinutes = {updateMinutes} 
               minutes = {minutes}
-              preview = {goToPreview}
+              preview = {updateNavigation}
       />
-      }
-      {
-        setupMode &&
-          <div><p>It don't work</p></div>
-      }  
+      } 
     </div>
   );
 }

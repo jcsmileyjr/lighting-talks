@@ -1,8 +1,10 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import '../css/login.css';
+import whiteBolt from '../assets/images/bolt_1f.png';
 
 const LogIn = props => {
+    const test = () => {props.goToSetup(2)};
     return(        
         <main className="landingPageImage">
             <Container style={{color:"white"}}>
@@ -11,13 +13,19 @@ const LogIn = props => {
                         Lighting Talks
                     </Col>
                 </Row>
-                <Row style={{height:"40vh"}} className="centerText">
+                <Row style={{height:"35vh"}} className="centerText">
                     <Col className="subTitle">
                         For Tech Meetups
                     </Col>
                 </Row>
-                <Row style={{height:"10vh"}}>
-                    <Col className="footerText">Click ANYWHERE to Continue</Col>
+                <Row style={{height:"15vh"}}>                    
+                    <Col xs={12}>                    
+                        <button className="buttonStyle">
+                            <img className="loginButton" src={whiteBolt} alt="white lighting bolt" onClick={test} />
+                        </button>
+                        
+                    </Col>
+                    <Col xs={12}>Click to Continue</Col>
                 </Row>
             </Container>               
         </main>        

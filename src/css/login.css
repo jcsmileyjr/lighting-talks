@@ -6,7 +6,16 @@
     background-color:"black" ;
     background-attachment: fixed;
     background-size: cover;/*image cover the entire screen*/
-    
+}
+
+.loginButton {
+    height: 5rem;
+    width: 5rem;
+}
+
+.buttonStyle {
+    border: 0px solid black;
+    padding: 0px;
 }
 
 .centerText {
