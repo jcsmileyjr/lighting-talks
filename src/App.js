@@ -5,9 +5,9 @@ import Setup from './screens/Setup';
 import LogIn from './screens/LogIn';
 
 const App = () => {
-  const [subject, setSubject]  = useState("Intro to React");
-  const [description, setDescription] = useState("Hello World App");
-  const [speaker, setSpeaker] = useState("Smiley");
+  const [subject, setSubject]  = useState("");
+  const [description, setDescription] = useState("");
+  const [speaker, setSpeaker] = useState("");
   const [minutes, setMinutes] = useState(0);
   const [navigation, setNavigation] = useState(1);
 

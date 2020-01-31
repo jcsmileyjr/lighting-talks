@@ -3,15 +3,24 @@
 }
 
 input, textarea {
-    width: 100%;
-    border: 1px solid grey;
+    width: 80%;
+    background-color: #081E42;
+    color:white;
+}
+
+input {
+    border-top: hidden;
+    border-right: none;
+    border-left: none;
+    border-bottom:7px solid white;
+    background-color: "pink"; 
+    
 }
 
 .containerStyle {
     margin-top: 20px;
 }
 
-.textAreaStyle {
-    
-    text-align: left;
+.textAreaStyle {    
+    text-align: center;
 }
