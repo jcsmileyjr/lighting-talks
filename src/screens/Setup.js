@@ -9,7 +9,6 @@ import PrimaryButton from '../components/Button/Button';
 const Setup = props => {
     return(
         <main >
-            <Header title="Step 1/2" />
             <section>
                 <Input  action={props.getSubject} 
                         output={props.subject} 
