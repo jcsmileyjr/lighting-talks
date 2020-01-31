@@ -3,6 +3,7 @@ import './App.css';
 
 import Setup from './screens/Setup';
 import LogIn from './screens/LogIn';
+import Preview from './screens/Preview';
 
 const App = () => {
   const [subject, setSubject]  = useState("");
@@ -32,6 +33,7 @@ const App = () => {
               preview = {updateNavigation}
       />
       } 
+      {navigation === 3 && <Preview />}
     </div>
   );
 }

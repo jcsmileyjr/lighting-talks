@@ -8,7 +8,7 @@ const LogIn = props => {
     return(        
         <main className="landingPageImage">
             <Container style={{color:"white"}}>
-                <Row style={{height:"50vh"}} className="centerText">
+                <Row style={{height:"40vh"}} className="centerText">
                     <Col className="title">
                         Lighting Talks
                     </Col>
