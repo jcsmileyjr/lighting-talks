@@ -22,18 +22,26 @@ const App = () => {
     <div className="App">
       {navigation === 1 && <LogIn goToSetup={updateNavigation} />}
       {navigation === 2 &&  
-      <Setup  getSubject = {updateSubject}
-              subject = {subject}
-              getDescription = {updateDescription} 
-              description = {description}
-              getSpeaker = {updateSpeaker} 
-              speaker = {speaker}
-              getMinutes = {updateMinutes} 
-              minutes = {minutes}
-              preview = {updateNavigation}
+        <Setup  getSubject = {updateSubject}
+                subject = {subject}
+                getDescription = {updateDescription} 
+                description = {description}
+                getSpeaker = {updateSpeaker} 
+                speaker = {speaker}
+                getMinutes = {updateMinutes} 
+                minutes = {minutes}
+                preview = {updateNavigation}
       />
       } 
-      {navigation === 3 && <Preview />}
+      {navigation === 3 && 
+        <Preview 
+                subject = {subject} 
+                description = {description}
+                speaker = {speaker} 
+                minutes = {minutes}
+                start = {updateNavigation}                
+        />
+      }
     </div>
   );
 }

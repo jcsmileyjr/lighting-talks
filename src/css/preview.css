@@ -1,0 +1,18 @@
+.previewPageImage {
+    background-image: url(../assets/images/lighting-pic-1a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-attachment: fixed;
+    background-size: cover;/*image cover the entire screen*/
+    color:white;
+
+}
+
+.contentStyle {
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
