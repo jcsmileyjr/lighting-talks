@@ -1,17 +1,20 @@
 import React from 'react';
 import './button.css';
+
 import {Container, Row, Col, Button} from 'react-bootstrap';
+import blueBolt from '../../assets/images/blue-bolt-2.png';
 
 const PrimaryButton = props => {
     return(
         <Container fluid={true} className="containerStyle">
-            <Row>
-                <Col xs={0} sm={4}></Col>
-                <Col xs={12} sm={4}>
-                    <Button onClick={props.action} variant="success" type="submit" block size="lg">Preview</Button>
-                </Col>
-                <Col xs={0} sm={4}></Col>
-            </Row>
+            <Row style={{height:"15vh"}}>                    
+                    <Col xs={12}>                    
+                        <button className="buttonStyle">
+                            <img className="loginButton" src={blueBolt} alt="white lighting bolt" onClick={props.action} />
+                        </button>                        
+                    </Col>
+                    <Col xs={12}>Click to Continue</Col>
+                </Row>
         </Container>
     );
 }

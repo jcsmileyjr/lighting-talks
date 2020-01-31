@@ -5,7 +5,6 @@ import Header from '../components/header/Header';
 import Input from '../components/Input/Input';
 import TextArea from '../components/Input/TextArea';
 import PrimaryButton from '../components/Button/Button';
-import colors from '../constants';
 
 const Setup = props => {
     return(
@@ -14,13 +13,13 @@ const Setup = props => {
             <section>
                 <Input  action={props.getSubject} 
                         output={props.subject} 
-                        label="Subject" />
+                        label="Type Subject" />
                 <TextArea   action={props.getDescription}
                             output={props.description}
-                            label="Description" />
+                            label="Type Description" />
                 <Input  action={props.getSpeaker} 
                         output={props.speaker}
-                        label="Speaker Name" />
+                        label="Type Speaker Name" />
                 <Input  action={props.getMinutes} 
                         output = {props.minutes}
                         label="Timer: Number of minutes" />
