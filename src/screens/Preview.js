@@ -7,6 +7,9 @@ const Preview = props => {
     return(
         <main className="">
             <section className="contentStyle previewPageImage">
+                <article>
+                    
+                </article>
                 <h1 style={{"textDecoration":"underline"}}>{props.subject}</h1>
                 <h3>{props.description}</h3>
                 <p>By {props.speaker}</p>

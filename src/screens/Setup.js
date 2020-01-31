@@ -12,16 +12,20 @@ const Setup = props => {
                 <Input  action={props.getSubject} 
                         output={props.subject} 
                         label="Type Subject" />
+                
                 <TextArea   action={props.getDescription}
-                            output={props.description}
-                            label="Type Description" />
+                        output={props.description}
+                        label="Type Description" />
+            
                 <Input  action={props.getSpeaker} 
-                        output={props.speaker}
-                        label="Type Speaker Name" />
+                output={props.speaker}
+                label="Type Speaker Name" />
+            
                 <Input  action={props.getMinutes} 
-                        output = {props.minutes}
-                        label="Timer: Number of minutes" />
-                <PrimaryButton instructions="Click to Continue" action={props.preview} />
+                output = {props.minutes}
+                label="Timer: Number of minutes" />                
+            
+                <PrimaryButton instructions="Click to Continue" action={props.preview} />                                
             </section>
 
         </main>
