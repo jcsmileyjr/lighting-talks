@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/setup.css';
 
-import Header from '../components/header/Header';
 import Input from '../components/Input/Input';
 import TextArea from '../components/Input/TextArea';
 import PrimaryButton from '../components/Button/Button';
@@ -9,7 +8,6 @@ import PrimaryButton from '../components/Button/Button';
 const Setup = props => {
     return(
         <main >
-            <Header title="Step 1/2" />
             <section>
                 <Input  action={props.getSubject} 
                         output={props.subject} 
@@ -23,7 +21,7 @@ const Setup = props => {
                 <Input  action={props.getMinutes} 
                         output = {props.minutes}
                         label="Timer: Number of minutes" />
-                <PrimaryButton action={props.preview} />
+                <PrimaryButton instructions="Click to Continue" action={props.preview} />
             </section>
 
         </main>

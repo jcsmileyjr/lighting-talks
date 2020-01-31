@@ -12,15 +12,15 @@ const Input = props => {
     return(
         <Container fluid={true} className="containerStyle">
             <Row>
-                <Col xs={0} sm={4}></Col>
-                <Col xs={12} sm={4}>
+                <Col xs={0} sm={4} md={2} lg={4}></Col>
+                <Col xs={12} sm={4} md={8} lg={4}>
                     <input  onChange={getValue} 
                             value={props.output} 
                             type="text" 
                             className="textStyle"
                             placeholder={props.label} />
                 </Col>
-                <Col xs={0} sm={4}></Col>
+                <Col xs={0} sm={4} md={2} lg={4}></Col>
             </Row>
         </Container>
     );
