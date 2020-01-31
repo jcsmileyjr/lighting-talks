@@ -12,16 +12,26 @@ const Setup = props => {
                 <Input  action={props.getSubject} 
                         output={props.subject} 
                         label="Type Subject" />
-                <TextArea   action={props.getDescription}
+                {props.subject.length > 1 &&
+                    <TextArea   action={props.getDescription}
                             output={props.description}
                             label="Type Description" />
-                <Input  action={props.getSpeaker} 
-                        output={props.speaker}
-                        label="Type Speaker Name" />
-                <Input  action={props.getMinutes} 
-                        output = {props.minutes}
-                        label="Timer: Number of minutes" />
-                <PrimaryButton instructions="Click to Continue" action={props.preview} />
+                }
+                {props.description.length > 1 &&
+                    <Input  action={props.getSpeaker} 
+                    output={props.speaker}
+                    label="Type Speaker Name" />
+                }
+                {props.speaker.length > 1 &&
+                    <Input  action={props.getMinutes} 
+                    output = {props.minutes}
+                    label="Timer: Number of minutes" />                
+                }
+                {props.minutes.length > 1 &&
+                    <PrimaryButton instructions="Click to Continue" action={props.preview} />
+                }
+
+                
             </section>
 
         </main>
