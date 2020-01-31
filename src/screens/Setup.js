@@ -9,10 +9,10 @@ const Setup = props => {
     return(
         <main >
             <section>
-            <Input  action={props.getSubject} 
-                    output={props.subject} 
-                    label="Type Subject" />
-            
+                <Input  action={props.getSubject} 
+                        output={props.subject} 
+                        label="Type Subject" />
+                
                 <TextArea   action={props.getDescription}
                         output={props.description}
                         label="Type Description" />
@@ -25,8 +25,7 @@ const Setup = props => {
                 output = {props.minutes}
                 label="Timer: Number of minutes" />                
             
-                <PrimaryButton instructions="Click to Continue" action={props.preview} />
-                                
+                <PrimaryButton instructions="Click to Continue" action={props.preview} />                                
             </section>
 
         </main>

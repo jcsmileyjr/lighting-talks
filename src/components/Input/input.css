@@ -6,15 +6,16 @@
 
 input, textarea {
     width: 85%;
-    background-color: #081E42;
+    background-color: rgb(10, 36, 78);/*lighter color*/
     color:white;
+    border-radius: 4px;
 }
 
 input {
     border-top: hidden;
     border-right: none;
     border-left: none;
-    border-bottom:7px solid white;
+    border-bottom:3px solid white;
     background-color: "pink"; 
     
 }
