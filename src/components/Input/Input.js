@@ -14,7 +14,11 @@ const Input = props => {
             <Row>
                 <Col xs={0} sm={4}></Col>
                 <Col xs={12} sm={4}>
-                    <input onChange={getValue} value={props.output} type="text" placeholder={props.label} />
+                    <input  onChange={getValue} 
+                            value={props.output} 
+                            type="text" 
+                            className="textStyle"
+                            placeholder={props.label} />
                 </Col>
                 <Col xs={0} sm={4}></Col>
             </Row>

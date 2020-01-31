@@ -8,7 +8,7 @@ const App = () => {
   const [subject, setSubject]  = useState("");
   const [description, setDescription] = useState("");
   const [speaker, setSpeaker] = useState("");
-  const [minutes, setMinutes] = useState(0);
+  const [minutes, setMinutes] = useState("");
   const [navigation, setNavigation] = useState(1);
 
   const updateSubject = newSubject => { setSubject(newSubject);}
