@@ -4,11 +4,12 @@ import Header from '../components/header/Header';
 import Input from '../components/Input/Input';
 import TextArea from '../components/Input/TextArea';
 import PrimaryButton from '../components/Button/Button';
+import colors from '../constants';
 
 const Setup = props => {
     return(
-        <main>
-            <Header />
+        <main style={colors.lightingBlue}>
+            <Header title="Step 1/2" />
             <Input  action={props.getSubject} 
                     output={props.subject} 
                     label="Talk's Subject or Title" />
