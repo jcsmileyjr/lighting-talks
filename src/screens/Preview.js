@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/preview.css';
 
-import Header from '../components/header/Header';
 import PrimaryButton from '../components/Button/Button';
 
 const Preview = props => {

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/setup.css';
 
-import Header from '../components/header/Header';
 import Input from '../components/Input/Input';
 import TextArea from '../components/Input/TextArea';
 import PrimaryButton from '../components/Button/Button';
