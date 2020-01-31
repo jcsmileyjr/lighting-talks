@@ -23,7 +23,7 @@ const Setup = props => {
                 <Input  action={props.getMinutes} 
                         output = {props.minutes}
                         label="Timer: Number of minutes" />
-                <PrimaryButton action={props.preview} />
+                <PrimaryButton instructions="Click to Continue" action={props.preview} />
             </section>
 
         </main>

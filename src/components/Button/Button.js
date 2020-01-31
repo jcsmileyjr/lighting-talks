@@ -16,7 +16,7 @@ const PrimaryButton = props => {
                             <img className="loginButton" src={blueBolt} alt="white lighting bolt" onClick={goToPreview} />
                         </button>                        
                     </Col>
-                    <Col xs={12}>Click to Continue</Col>
+                    <Col xs={12}>{props.instructions}</Col>
                 </Row>
         </Container>
     );
