@@ -3,12 +3,13 @@ import './App.css';
 
 import Setup from './screens/Setup';
 import LogIn from './screens/LogIn';
+import Preview from './screens/Preview';
 
 const App = () => {
-  const [subject, setSubject]  = useState("Intro to React");
-  const [description, setDescription] = useState("Hello World App");
-  const [speaker, setSpeaker] = useState("Smiley");
-  const [minutes, setMinutes] = useState(0);
+  const [subject, setSubject]  = useState("");
+  const [description, setDescription] = useState("");
+  const [speaker, setSpeaker] = useState("");
+  const [minutes, setMinutes] = useState("");
   const [navigation, setNavigation] = useState(1);
 
   const updateSubject = newSubject => { setSubject(newSubject);}
@@ -32,6 +33,7 @@ const App = () => {
               preview = {updateNavigation}
       />
       } 
+      {navigation === 3 && <Preview />}
     </div>
   );
 }

@@ -1,15 +1,7 @@
 .primaryTitleStyle {
-    font-size: 50px;
-    font-weight: bolder;
-    text-decoration: underline;
+    font-size: 1rem;
+    color:white;
 }
 
-.secondaryTitleStyle {
-    font-size:20px;
-}
-
-.headerStyle {
-    width:100%;
-}
 
 

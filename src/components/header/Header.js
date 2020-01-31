@@ -4,9 +4,8 @@ import './header.css';
 
 const Header = props => {
     return(
-        <main className="headerStyle" style={colors.headerColor}>
-            <div className="primaryTitleStyle">Lighting Talks</div>
-            <div className="secondaryTitleStyle">For Tech Meetups</div>
+        <main style={colors.lightingBlue}>
+            <div className="primaryTitleStyle">{props.title}</div>
         </main>
     );
 }
