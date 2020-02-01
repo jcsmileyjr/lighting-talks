@@ -46,7 +46,7 @@ const Preview = props => {
                 <p>By {props.speaker}</p>
                 
                 {
-                    start?<h4>{min-1} minutes : {seconds} seconds</h4>:<h4>{props.minutes} minutes</h4>
+                    start?<p className="timer">{min-1} minutes : {seconds} seconds</p>:<h4>{props.minutes} minutes</h4>
                 }
                 
                 <PrimaryButton instructions="Click to Start" action={begin} />                
