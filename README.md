@@ -28,7 +28,7 @@ This project was used to practice developing with React and deloying to Netlify.
 
 ### WireFrame
 
-![Screen-shot of Wireframe in use](assets/levelUp-redesign.JPG)
+![Screen-shot of Wireframe in use](assets/images/LT-wireframe.PNG)
 
 ### This app was built with the following technologies:
 
