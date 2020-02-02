@@ -1,6 +1,6 @@
-# Level Up Dev
+# Lighting Talks
 
-![gif of app](./assets/images/LT-4.gif)
+![gif of app](./src/assets/images/LT-4.gif)
 
 ### Table of Contents
 
@@ -28,7 +28,7 @@ This project was used to practice developing with React and deloying to Netlify.
 
 ### WireFrame
 
-![Screen-shot of Wireframe in use](assets/images/LT-wireframe.PNG)
+![Screen-shot of Wireframe in use](./src/assets/images/LT-wireframe.PNG)
 
 ### This app was built with the following technologies:
 
