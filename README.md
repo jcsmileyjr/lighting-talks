@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lighting Talks
 
-## Available Scripts
+![gif of app](./src/assets/images/LT-4.gif)
 
-In the project directory, you can run:
+### Table of Contents
 
-### `npm start`
+1. Demo Link
+2. Purpose
+3. Motivation
+4. Objectives
+5. Wireframe
+### Project production Link: [Lighting Talks](https://lighting-talks.netlify.com/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Purpose:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ A tool for presenting details about a talk and a countdown timer at a tech meetup.
 
-### `npm test`
+### Motivation:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was used to practice developing with React and deloying to Netlify.
 
-### `npm run build`
+### Objectives:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Allow the user to input a talk's title, description, speaker's name, and number of minutes
+- Practice using images and animation to improve user experience. Practice deploying to Netlify.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### WireFrame
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screen-shot of Wireframe in use](./src/assets/images/LT-wireframe.PNG)
 
-### `npm run eject`
+### This app was built with the following technologies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**React:** JavaScript front-end library for building user interfaces
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Git-Hub:** Web-based version control repository and Internet hosting service
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Abode XD** A wire-framing tool used to create a mockup/visual of what is to be coded
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**JavaScript:** Object-oriented programming language for web pages
 
-## Learn More
+**HTML:** Mark-up language for creating web pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**CSS:** A formatting language for styling web pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+_Create by JC Smiley in January of 2020_
