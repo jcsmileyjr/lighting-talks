@@ -16,7 +16,7 @@ const Input = props => {
                 <Col xs={12} sm={4} md={8} lg={4}>
                     <input  onChange={getValue} 
                             value={props.output} 
-                            type="text" 
+                            type={props.type} 
                             className="textStyle"
                             placeholder={props.label} />
                 </Col>

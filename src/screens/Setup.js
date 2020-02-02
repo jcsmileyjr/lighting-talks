@@ -10,7 +10,8 @@ const Setup = props => {
         <main >
             <section>
                 <Input  action={props.getSubject} 
-                        output={props.subject} 
+                        output={props.subject}
+                        type="text" 
                         label="Type Subject" />
                 
                 <TextArea   action={props.getDescription}
@@ -19,10 +20,12 @@ const Setup = props => {
             
                 <Input  action={props.getSpeaker} 
                         output={props.speaker}
+                        type="text" 
                         label="Type Speaker Name" />
             
                 <Input  action={props.getMinutes} 
                         output = {props.minutes}
+                        type="number" 
                         label="Timer: Number of minutes" />                
             
                 <PrimaryButton instructions="Click to Continue" action={props.preview} />                                
