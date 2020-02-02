@@ -18,12 +18,12 @@ const Setup = props => {
                         label="Type Description" />
             
                 <Input  action={props.getSpeaker} 
-                output={props.speaker}
-                label="Type Speaker Name" />
+                        output={props.speaker}
+                        label="Type Speaker Name" />
             
                 <Input  action={props.getMinutes} 
-                output = {props.minutes}
-                label="Timer: Number of minutes" />                
+                        output = {props.minutes}
+                        label="Timer: Number of minutes" />                
             
                 <PrimaryButton instructions="Click to Continue" action={props.preview} />                                
             </section>
