@@ -1,8 +1,8 @@
 import React from 'react';
+import {Button} from 'react-bootstrap';
 import './button.css';
 
 import {Container, Row, Col} from 'react-bootstrap';
-import blueBolt from '../../assets/images/blue-bolt-2.png';
 
 const PrimaryButton = props => {
     const goToPreview =() => {
@@ -11,12 +11,9 @@ const PrimaryButton = props => {
     return(
         <Container fluid={true} className="containerStyle">
             <Row style={{height:"15vh"}}>                    
-                    <Col xs={12}>                    
-                        <button className="buttonStyle">
-                            <img className="loginButton" src={blueBolt} alt="white lighting bolt" onClick={goToPreview} />
-                        </button>                        
+                    <Col xs={12}> 
+                        <Button onClick={goToPreview} variant="primary" type="button" >{props.instructions}</Button>                     
                     </Col>
-                    <Col xs={12}>{props.instructions}</Col>
                 </Row>
         </Container>
     );

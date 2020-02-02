@@ -26,14 +26,14 @@ const Preview = props => {
                 return;
             }
             setMin((min ) => min - 1);
-            setSeconds(10);
+            setSeconds(60);
             
         }else{
             setSeconds(seconds -1);
         }
     }
 
-    const begin = ()=> {setSeconds(10); setStart(true);};
+    const begin = ()=> {setSeconds(60); setStart(true);};
 
     return(
         <main className="">
@@ -48,8 +48,9 @@ const Preview = props => {
                 {
                     start?<p className="timer">{min-1} minutes : {seconds} seconds</p>:<h4>{props.minutes} minutes</h4>
                 }
-                
-                <PrimaryButton instructions="Click to Start" action={begin} />                
+                {
+                    start?<PrimaryButton instructions="Click to Restart" action={begin} />:<PrimaryButton instructions="Click to Start" action={begin} />
+                }                
             </section>           
 
             
