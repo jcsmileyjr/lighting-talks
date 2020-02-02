@@ -33,3 +33,7 @@ input {
 .textAreaStyle {    
     text-align: center;
 }
+
+.iconStyle {
+    margin-left:1rem;
+}

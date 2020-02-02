@@ -23,7 +23,7 @@ const Input = props => {
             placeholder={props.label}
           />
           {props.output.length >= 1 &&
-            <i><FontAwesomeIcon icon={faBolt} /></i>          
+            <i className="iconStyle"><FontAwesomeIcon icon={faBolt} /></i>          
           }
 
         </Col>

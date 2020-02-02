@@ -2,6 +2,8 @@ import React from 'react';
 import './input.css';
 
 import {Container, Row, Col} from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
 
 const TextArea = props => {
 
@@ -19,6 +21,9 @@ const TextArea = props => {
                                 rows="5" 
                                 className="textStyle"
                                 placeholder={props.label} ></textarea>
+                {props.output.length >= 1 &&
+                    <i className="iconStyle"><FontAwesomeIcon icon={faBolt} /></i>          
+                }
                 </Col>
                 <Col xs={0} sm={4} md={2} lg={4}></Col>
             </Row>
