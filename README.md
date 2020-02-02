@@ -9,9 +9,7 @@
 3. Motivation
 4. Objectives
 5. Wireframe
-6. Technologies Used
-
-### Click to install Android app from the Google Play Store: [Level Up](https://play.google.com/store/apps/details?id=com.levelup.mobile)
+### Project production Link: [Lighting Talks](https://lighting-talks.netlify.com/)
 
 ### Purpose:
 
