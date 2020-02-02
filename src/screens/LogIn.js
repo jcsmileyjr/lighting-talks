@@ -15,7 +15,7 @@ const LogIn = props => {
                 </Row>
                 <Row style={{height:"35vh"}} className="centerText">
                     <Col className="subTitle">
-                        For Tech Meetups
+                    A tool for presenting details about a talk and a countdown timer at a tech meetup.
                     </Col>
                 </Row>
                 <Row style={{height:"15vh"}}>                    

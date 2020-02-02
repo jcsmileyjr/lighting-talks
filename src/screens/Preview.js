@@ -26,14 +26,14 @@ const Preview = props => {
                 return;
             }
             setMin((min ) => min - 1);
-            setSeconds(10);
+            setSeconds(60);
             
         }else{
             setSeconds(seconds -1);
         }
     }
 
-    const begin = ()=> {setSeconds(10); setStart(true);};
+    const begin = ()=> {setSeconds(60); setStart(true);};
 
     return(
         <main className="">
