@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Level Up Dev
 
-## Available Scripts
+![gif of app](./assets/images/LT-4.gif)
 
-In the project directory, you can run:
+### Table of Contents
 
-### `npm start`
+1. Demo Link
+2. Purpose
+3. Motivation
+4. Objectives
+5. Wireframe
+6. Technologies Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Click to install Android app from the Google Play Store: [Level Up](https://play.google.com/store/apps/details?id=com.levelup.mobile)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Purpose:
 
-### `npm test`
+ A tool for presenting details about a talk and a countdown timer at a tech meetup.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Motivation:
 
-### `npm run build`
+This project was used to practice developing with React and deloying to Netlify.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Objectives:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Allow the user to input a talk's title, description, speaker's name, and number of minutes
+- Practice using images and animation to improve user experience. Practice deploying to Netlify.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### WireFrame
 
-### `npm run eject`
+![Screen-shot of Wireframe in use](assets/levelUp-redesign.JPG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### This app was built with the following technologies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**React:** JavaScript front-end library for building user interfaces
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Git-Hub:** Web-based version control repository and Internet hosting service
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Abode XD** A wire-framing tool used to create a mockup/visual of what is to be coded
 
-## Learn More
+**JavaScript:** Object-oriented programming language for web pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**HTML:** Mark-up language for creating web pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**CSS:** A formatting language for styling web pages
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+_Create by JC Smiley in January of 2020_
