@@ -21,9 +21,6 @@ const TextArea = props => {
                                 rows="5" 
                                 className="textStyle"
                                 placeholder={props.label} ></textarea>
-                {props.output.length >= 1 &&
-                    <i className="iconStyle"><FontAwesomeIcon icon={faBolt} /></i>          
-                }
                 </Col>
                 <Col xs={0} sm={4} md={2} lg={4}></Col>
             </Row>

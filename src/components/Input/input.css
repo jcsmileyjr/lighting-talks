@@ -10,7 +10,7 @@
     }
 }
 
-input, textarea {
+input, textarea{
     width: 85%;
     background-color: rgb(10, 36, 78);/*lighter color*/
     color:white;
@@ -21,9 +21,7 @@ input {
     border-top: hidden;
     border-right: none;
     border-left: none;
-    border-bottom:3px solid white;
-    background-color: "pink"; 
-    
+    border-bottom:3px solid white;    
 }
 
 .containerStyle {
