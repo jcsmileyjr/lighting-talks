@@ -12,13 +12,15 @@ const PrimaryButton = props => {
     }
     return(
         <Container fluid={true} className="containerStyle">
-            <Row style={{height:"15vh"}}>                    
-                    <Col xs={12}> 
-                        <Button onClick={goToPreview} variant="primary" type="button" block>
-                        <i className="iconStyle"><FontAwesomeIcon icon={faBolt} /></i>
-                            {props.instructions}
-                        </Button>                     
-                    </Col>
+            <Row>   
+                <Col xs={0} sm={4} md={4} lg={4}></Col>
+                <Col xs={12} sm={4} md={4} lg={4}> 
+                    <Button onClick={goToPreview} variant="primary" type="button" block>
+                    <i className="iconStyle"><FontAwesomeIcon icon={faBolt} /></i>
+                        {props.instructions}
+                    </Button>                     
+                </Col>
+                <Col xs={0} sm={4} md={4} lg={4}></Col>
             </Row>
         </Container>
     );
