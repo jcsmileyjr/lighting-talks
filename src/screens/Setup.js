@@ -7,7 +7,7 @@ import PrimaryButton from '../components/Button/Button';
 
 const Setup = props => {
     return(
-        <main >
+        <main>
             <section>
                 <Input  action={props.getSubject} 
                         output={props.subject}
