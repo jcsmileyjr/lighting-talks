@@ -1,6 +1,6 @@
 # Lighting Talks
 
-![gif of app](./src/assets/images/LT-4.gif)
+![gif of app](./src/assets/images/LT-5.gif)
 
 ### Table of Contents
 
