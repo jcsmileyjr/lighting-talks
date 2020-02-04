@@ -5,7 +5,7 @@ import Setup from './screens/Setup';//screen that allow user to input data
 import LogIn from './screens/LogIn';//landing page featuring the name of the app
 import Preview from './screens/Preview';//final page that allow user to preview data and start countdown timer
 
-//HOC for the app. Contains the state and navigation for the screens within the app
+//HOC for the application. Contains the state and navigation for the screens within the app
 const App = () => {
   const [subject, setSubject]  = useState("");//app's state that saves the title of the talk
   const [description, setDescription] = useState("");//app's state that saves the talk description
@@ -21,7 +21,9 @@ const App = () => {
 
   return (
     <div className="App">
+      {/*Show the landing page */}
       {navigation === 1 && <LogIn goToSetup={updateNavigation} />}
+      {/*Navigate to the Setup page where the user inputs the information */}
       {navigation === 2 &&  
         <Setup  getSubject = {updateSubject}
                 subject = {subject}
@@ -34,6 +36,7 @@ const App = () => {
                 preview = {updateNavigation}
       />
       } 
+      {/*Navigate to the Preview screen where user approves the details and start the countdown timer */}
       {navigation === 3 && 
         <Preview 
                 subject = {subject} 
