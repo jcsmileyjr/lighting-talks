@@ -1,3 +1,9 @@
 .containerStyle {    
     color:white;
 }
+
+.iconStyle {
+    margin-right:1rem;
+    text-align: left;
+    color:gold;
+}

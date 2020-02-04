@@ -3,8 +3,9 @@ import {Container, Row, Col} from 'react-bootstrap';
 import '../css/login.css';
 import whiteBolt from '../assets/images/bolt_1f.png';
 
+//Landing page screen that leads to the Setup screen
 const LogIn = props => {
-    const test = () => {props.goToSetup(2)};
+    const test = () => {props.goToSetup(2)};//function that navigate user to the Setup Screen
     return(        
         <main className="landingPageImage">
             <Container style={{color:"white"}}>
