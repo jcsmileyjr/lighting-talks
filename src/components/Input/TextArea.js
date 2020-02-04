@@ -2,8 +2,6 @@ import React from 'react';
 import './input.css';
 
 import {Container, Row, Col} from 'react-bootstrap';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBolt } from "@fortawesome/free-solid-svg-icons";
 
 const TextArea = props => {
 

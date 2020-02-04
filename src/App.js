@@ -38,7 +38,8 @@ const App = () => {
                 subject = {subject} 
                 description = {description}
                 speaker = {speaker} 
-                minutes = {minutes}               
+                minutes = {minutes}
+                back = {updateNavigation}               
         />
       }
     </div>
